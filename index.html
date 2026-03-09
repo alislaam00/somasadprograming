@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+
 <title>SOM ASAD PROGRAMING</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 
 body{
 font-family:Arial;
-background:#f2f2f2;
-text-align:center;
+margin:0;
+background:#f4f4f4;
 }
 
 .header{
-background:black;
+background:#000;
 color:white;
 padding:20px;
-font-size:30px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
 }
 
-.box{
-background:white;
+.search{
+text-align:center;
+margin:20px;
+}
+
+.search input{
 width:80%;
-margin:auto;
-padding:20px;
-margin-top:30px;
-border-radius:10px;
+padding:12px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
 }
 
-a{
+.container{
+width:90%;
+max-width:600px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 0 8px #ccc;
+}
+
+.download{
 display:block;
-background:#007BFF;
+background:#2d6cdf;
 color:white;
-padding:12px;
-margin:10px;
 text-decoration:none;
+padding:12px;
+margin-top:10px;
 border-radius:6px;
+text-align:center;
+font-size:16px;
+}
+
+.download:hover{
+background:#1e4fb8;
+}
+
+.footer{
+text-align:center;
+margin-top:30px;
+padding:20px;
+color:#666;
 }
 
 </style>
@@ -48,16 +83,34 @@ border-radius:6px;
 SOM ASAD PROGRAMING
 </div>
 
-<div class="box">
+<div class="search">
+<input type="text" placeholder="Search FRP tools...">
+</div>
 
-<h2>Download Tools</h2>
+<div class="container">
 
-<a href="#">FRP Bypass APK</a>
+<div class="card">
+<h3>FRP Bypass APK</h3>
+<p>Download FRP bypass tool for Android phones.</p>
+<a class="download" href="frp.apk">Download</a>
+</div>
 
-<a href="#">Quick Shortcut Maker</a>
+<div class="card">
+<h3>Quick Shortcut Maker</h3>
+<p>Shortcut tool for Android settings.</p>
+<a class="download" href="quickshortcut.apk">Download</a>
+</div>
 
-<a href="#">Google Account Manager</a>
+<div class="card">
+<h3>Google Account Manager</h3>
+<p>Android account manager tool.</p>
+<a class="download" href="gam.apk">Download</a>
+</div>
 
+</div>
+
+<div class="footer">
+© 2026 SOM ASAD PROGRAMING
 </div>
 
 </body>
